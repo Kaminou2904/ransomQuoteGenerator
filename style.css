@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+}
+
+.container{
+    background-color: whitesmoke;
+    padding: 30px 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+}
+
+.container h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container h3{
+    text-align: center;
+}
+
+.container p{
+    text-align: right;
+    font-style: italic;
+    margin: 10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.myUl{
+    display: flex;
+    list-style: none;
+}
+
+.myUl li{
+    margin: 0px 10px 0px 0px;
+}
+
+.myUl li i{
+    display: flex;
+    border-radius: 50%;
+    border: 2px solid skyblue;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.myUl li i:hover{
+    background-color: deepskyblue;
+    border: 2px solid deepskyblue;
+}
+
+#quoteR{
+    text-align: right;
+}
+
+#newQuoteBtn{
+    border: none;
+    outline: none;
+    background-color: skyblue;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#newQuoteBtn:hover{
+    background-color: deepskyblue;
+}
